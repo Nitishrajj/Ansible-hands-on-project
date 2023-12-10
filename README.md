@@ -13,3 +13,5 @@ Project Goals:
     Automated Tasks: Utilize Ansible playbooks to automate routine tasks, ensuring consistency and accuracy in configuration across host servers.
     Scalability: Design the architecture for potential future expansion to manage a larger number of host servers.
 # Getting started
+
+![Alt Text](picture1.png)
