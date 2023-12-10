@@ -31,12 +31,14 @@ You can see "Authorized keys" file in this location. In this authorized keys fil
 Now you should be able to connect to the node through the controller using the command "ssh@nodeipaddress" from controller cli. Similarly setup the ssh connection between  node2 using the same procedure and try to check using "ssh@IPADD" Once all the connections are set we are ready to use adhoc commands and do the automation.
 Now your ready to use the ansible adhoc commands 
 You can try using the below commands 
-"ansible webserver reboot" 
+"ansible nodes ls" 
 syntax - "ansible groupname commandrequired"
+
+The above command will list all the files and folders of the hosts which are present in the group nodes in the inventory file
 
 
 # Theory explanation 
 # Ansible 
 Ansible is an open-source automation tool that simplifies configuration management, application deployment, task automation, and orchestration.
 Basically, Ansible adhoc commands are used when you want to execute small commands (like "ls", etc) but when you want to execute bigger commands for configuration management or deploymet or automation it is suggested to use Ansible playbooks.
-![Alt Text](picture1.png)
+![Alt Text](picture2.png)
